@@ -4,6 +4,7 @@ require('cross-fetch/polyfill');
 
 function addDestinationInfo(document, name, diameter, star, distance, moons, imageUrl) {
     let missionTarget = document.getElementById("missionTarget");
+    
     missionTarget.innerHTML = `
         <h2>Mission Destination</h2>
             <ol>
